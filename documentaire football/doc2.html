@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentaire sur le Football</title>
+  <link rel="stylesheet" href="doc2.css">
+ 
+</head>
+<body>
+  <header>
+    <img src="football.jpg" class="foot"> 
+    <div class="logo">
+      <h1>Football Stories</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#videos">Vidéos</a></li>
+        <li><a href="#sources">Sources</a></li>
+		<li><a href="#galerie">Galerie</a></li>
+		<li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction">
+	<h2><b>Introduction</b></h2>
+      <div class="container">
+        <!-- Section 1 -->
+        <div class="section">
+            <h3>Définition</h3>
+            <p>Le football est un sport collectif joué entre deux équipes de 11 joueurs chacune. L'objectif est de marquer des buts en envoyant un ballon dans le but adverse, principalement avec les pieds. C'est le sport le plus populaire au monde, régulé par la FIFA.</p>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="section">
+            <h3>Historique</h3>
+            <p>Le football moderne trouve ses origines en Angleterre au XIXe siècle. Cependant, des formes anciennes de jeux de balle existaient déjà en Chine (cuju), en Grèce (harpastum) et en Mésoamérique. La première Coupe du Monde a eu lieu en 1930, organisée par la FIFA.</p>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="section">
+            <h3>Légendes</h3>
+            <ul>
+                <li><strong>Pelé :</strong> Considéré comme "Le Roi" du football, vainqueur de trois Coupes du Monde (1958, 1962, 1970).</li>
+                <li><strong>Diego Maradona :</strong> Célèbre pour sa "main de Dieu" et son rôle dans la victoire de l'Argentine en 1986.</li>
+                <li><strong>Lionel Messi :</strong> Multiple Ballon d'Or et vainqueur de la Coupe du Monde 2022.</li>
+                <li><strong>Cristiano Ronaldo :</strong> Connu pour sa polyvalence et son éthique de travail exceptionnelle.</li>
+                <li><strong>Zinedine Zidane :</strong> Icône du football français et vainqueur de la Coupe du Monde 1998.</li>
+            </ul>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="section">
+            <h3>Coupes</h3>
+            <ul>
+                <li><strong>Coupe du Monde de la FIFA :</strong> La compétition la plus prestigieuse, organisée tous les 4 ans.</li>
+                <li><strong>Coupe du Monde Féminine :</strong> Créée en 1991, elle met en avant les équipes nationales féminines.</li>
+                <li><strong>Euro :</strong> Compétition européenne des équipes nationales.</li>
+                <li><strong>Copa América :</strong> Compétition majeure en Amérique du Sud.</li>
+                <li><strong>UEFA Champions League :</strong> Compétition de clubs la plus prestigieuse en Europe.</li>
+            </ul>
+        </div>
+    </div>
+	</section>
+	
+	<section id="videos">
+      <h2><b>Vidéos</b></h2>
+      <div class="video-container">
+        <iframe src="https://youtu.be/cQ02MJGkraY?si=wiD58Kj9ATkyiuV4" title="Vidéo de football" allowfullscreen></iframe>
+        <iframe src="https://youtu.be/CazeDYCyz88?si=hTq-n6_vt2la6Dar" title="Vidéo de football 2" allowfullscreen></iframe>
+      </div>
+    </section>
+    
+	<section id="galerie">
+        <h2><b>Galerie</b></h2>
+        <div class="image-gallery">
+		    <img src="world.avif" alt="Célébration de but">
+            <img src="images (2).jpg" alt="Joueur emblématique">
+			<img src="ch.jpg" alt="Moment historique du football">			
+			<img src="messi.webp" alt="Célébration de but">
+        </div>
+    </section>
+
+    <section id="galerie">
+        <div class="image-gallery">
+			<img src="ronaldo.webp" alt="Célébration de but">
+			<img src="rm.jpg" alt="Célébration de but">
+			<img src="est.jpg" alt="Célébration de but">
+			<img src="zidane.jpg" alt="Célébration de but">
+			
+        </div>
+    </section>
+
+    <section id="sources">
+      <h2><b>Sources</b></h2>
+      <ul>
+        <li><a href="https://www.fifa.com" target="_blank">FIFA</a></li>
+        <li><a href="https://www.uefa.com" target="_blank">UEFA</a></li>
+        <li><a href="https://www.transfermarkt.com" target="_blank">Transfermarkt</a></li>
+      </ul>
+    </section>
+	<section id="contact">
+  <h2><b>Contactez-nous</b></h2>
+  <form action="submit_form.php" method="post">
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Football Stories| MR Souissi</p>
+  </footer>
+</body>
+</html>
